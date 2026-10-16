@@ -22,7 +22,7 @@ print(type(f))
 g="hello" #immutable
 h=[1,2,3] #mutable
 i=(4,5,6) #immutable
-j=range(1,5) #immutable
+j=range(1,5,1) #immutable ->range(start,stop,step)
 print(g,h,i,j)
 print(type(g),type(h),type(i),type(j))
 
