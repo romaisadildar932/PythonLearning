@@ -1,0 +1,3 @@
+public -> name(Can be accessed from anywhere.)
+private -> __name(Intended for use within the class and its child classes.)
+protected -> _name(Intended to be accessed only within the same class.)
