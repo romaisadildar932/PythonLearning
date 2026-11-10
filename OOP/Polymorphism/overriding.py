@@ -1,5 +1,5 @@
 #method overriding ->one way to achieve polymorphism,parent class method is overridden in child class
-class Animal():
+class Animal:
     def sound(self):
         print('Animal makes sound')
 class Dog(Animal):

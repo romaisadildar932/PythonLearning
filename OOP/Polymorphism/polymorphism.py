@@ -2,11 +2,11 @@
   same method behaves differently for different classes'''
 
  #polymorphism
-class Bird():
+class Bird:
    def move(self):
        print('Bird Flies')
 
-class Fish():
+class Fish:
     def move(self):
          print('Fish swims')
 
